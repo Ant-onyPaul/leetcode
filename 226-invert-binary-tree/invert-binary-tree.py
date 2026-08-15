@@ -12,13 +12,6 @@ class Solution:
         self.invertTree(root.left)
         self.invertTree(root.right)
         return root
-        # q=[root]
-        # ans=[]
-        
-        # while q:
-        #     level=[]
-        #     for i in range(len(q)):
-        #         node=q.pop(0)
-        #         level.append(node.val)
+       
 
                 
