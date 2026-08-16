@@ -22,7 +22,8 @@ class Solution:
                     q.append(node.right)
             if lefttoright == False:
                 level.reverse()
-            ans.append(level)
+            
             lefttoright= not lefttoright
+            ans.append(level)
                 
         return ans
