@@ -10,9 +10,10 @@ class Solution:
         def dfs(node):
             if not node:
                 return 0
-            ans.append(node.val)
-            dfs(node.right)
+            
             dfs(node.left)
+            dfs(node.right)
+            ans.append(node.val)
         dfs(root)
-        ans.reverse()
+        
         return ans
