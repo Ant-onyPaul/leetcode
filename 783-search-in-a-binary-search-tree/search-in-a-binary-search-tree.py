@@ -14,4 +14,4 @@ class Solution:
             return self.searchBST(root.right,val)
         if val == root.val:
             return root
-        # return self.searchBST(root.left,val) and self.searchBST(root.right,val)
+       
